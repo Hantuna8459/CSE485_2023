@@ -25,4 +25,16 @@ class Article{
     public function setTitle($title){
         $this->title=$title;
     }
+    public function getSummary(){
+        return $this->summary;
+    }
+    public function setSummary($summary){
+        $this->title=$summary;
+    }
+    public function getContent(){
+        return $this->content;
+    }
+    public function setContent($content){
+        $this->title=$content;
+    }
 }
